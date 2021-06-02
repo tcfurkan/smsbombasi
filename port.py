@@ -52,7 +52,7 @@ def hostScan(targethost,targetports):
             print("Hatal işlem")
 
 def main():
-    parser = optparse.OptionParser("Program Use: -H <Host Address> -p <Port Adress>")
+    parser = optparse.OptionParser("Programın kullanımı : <ip adresi>")
     parser.add_option("-H", dest="targetHost", type="string", help="Hedef Ana makine")
     parser.add_option("-p", dest="targetPort", type="string", help="(,) veya (,)'süz port belirtin")
     (options,args) = parser.parse_args()
